@@ -1,18 +1,19 @@
-var Shopper = require('./Shopper');
+/* 
+  PROTOTYPE PATTERN
+*/
 
-var alex = new Shopper('Alex Banks');
-alex.addItemToList('camping knife');
-alex.addItemToList('tent');
-alex.addItemToList('backpack');
-alex.addItemToList('map');
-alex.addItemToList('slingshot');
+// this pattern reduces redundancy
 
-var eve = new Shopper('Eve Porcello');
-eve.addItemToList('camping knife');
-eve.addItemToList('tent');
-eve.addItemToList('backpack');
-eve.addItemToList('map');
-eve.addItemToList('reading light');
+// var Shopper = require("./Shopper");
+var scout_prototype = require("./scout_prototype");
 
-console.log( `${alex.name}: ${alex.shoppingList}` );
-console.log( `${eve.name}: ${eve.shoppingList}` );
+var alex = scout_prototype.clone();
+alex.name = "Alex Banks";
+alex.addItemToList("slingshot");
+
+var eve = scout_prototype.clone();
+eve.name = "Eve";
+eve.addItemToList("reading light");
+
+console.log(`${alex.name}: ${alex.shoppingList}`);
+console.log(`${eve.name}: ${eve.shoppingList}`);
