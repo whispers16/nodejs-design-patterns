@@ -8,10 +8,10 @@ NodeJS Design Patterns
 * Factory pattern (CH02 -> 02_06)
 * Builder pattern (CH02 -> 02_07, 02_08)
 ## Structural patterns
-* Adapter pattern
-* Proxy pattern
-* Composite pattern
-* Decorator pattern
+* Adapter pattern (CH03 -> 03_01, 03_02)
+* Proxy pattern (CH03 -> 03_03, 03_04)
+* Composite pattern (CH03 -> 03_05, 03_06)
+* Decorator pattern (CH03 -> 03_07, 03_08)
 ## Behavioral patterns
 * Chain of responsability
 * Command pattern
