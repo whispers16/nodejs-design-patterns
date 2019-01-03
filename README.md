@@ -13,8 +13,8 @@ NodeJS Design Patterns
 * Composite pattern (CH03 -> 03_05, 03_06)
 * Decorator pattern (CH03 -> 03_07, 03_08)
 ## Behavioral patterns
-* Chain of responsability
-* Command pattern
-* Iterator pattern
-* Observer pattern
-* Strategy pattern
+* Chain of responsability (CH04 -> 04_01, 04_02)
+* Command pattern (CH04 -> 04_03, 04_04, 04_05)
+* Iterator pattern (CH04 -> 04_06, 04_07)
+* Observer pattern (CH04 -> 04_08, 04_09)
+* Strategy pattern (CH04 -> 04_10, 04_11)
